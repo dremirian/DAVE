@@ -74,7 +74,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center mb-6">
-            <Brain className="w-16 h-16 text-cyan-400" />
+           <span className="text-4xl">🤖</span>
           </div>
           <h1 className="text-5xl font-bold text-white mb-4">
             DAVE
