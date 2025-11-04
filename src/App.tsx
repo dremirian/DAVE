@@ -81,7 +81,7 @@ function App() {
           </h1>
           <p className="text-2xl text-cyan-400 mb-2">Database Assistant Virtual Engine</p>
           <p className="text-gray-300 max-w-3xl mx-auto text-lg">
-            Painel multifuncional para administração, análise e migração de bancos de dados, uma central inteligente e ágil para DBAs e desenvolvedores.
+            Painel multifuncional para administração, análise e migração de bancos de dados, uma central inteligente e ágil para DBAs.
           </p>
         </div>
 
