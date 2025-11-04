@@ -1,5 +1,6 @@
 import { Database, Activity, Link, FileText, Brain, Download } from 'lucide-react';
 import { DaveAssistant } from './components/DaveAssistant';
+import DAVELOGO from './img/DAVELOGO.png';
 
 function App() {
   const handleDownloadHealthCheck = async () => {
@@ -73,13 +74,16 @@ function App() {
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
-          <div className="flex items-center justify-center mb-6">
-           <span className="text-4xl">🤖</span>
-          </div>
-          <h1 className="text-5xl font-bold text-white mb-4">
-            DAVE
-          </h1>
-          <p className="text-2xl text-cyan-400 mb-2">Database Assistant Virtual Engine</p>
+			<div className="flex items-center justify-center mb-6">
+				<img src={DAVELOGO} alt="Logo DAVE" className="w-48 h-40"/>
+			</div>          
+          <p className="text-2xl text-cyan-400 mb-4 tracking-wide font-light">
+            <span className="text-white font-bold text-3xl animate-pulse">D</span><span className="ml-1">atabase </span>
+            <span className="text-white font-bold text-3xl animate-pulse">A</span><span className="ml-1">ssistant </span>
+            <span className="text-white font-bold text-3xl animate-pulse">V</span><span className="ml-1">irtual </span>
+            <span className="text-white font-bold text-3xl animate-pulse">E</span><span className="ml-1">ngine</span>
+          </p>
+
           <p className="text-gray-300 max-w-3xl mx-auto text-lg">
             Painel multifuncional para administração, análise e migração de bancos de dados, uma central inteligente e ágil para DBAs.
           </p>
