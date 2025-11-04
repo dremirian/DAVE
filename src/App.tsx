@@ -75,7 +75,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
 			<div className="flex items-center justify-center mb-6">
-				<img src={DAVELOGO} alt="Logo DAVE" className="w-48 h-48"/>
+				<img src={DAVELOGO} alt="Logo DAVE" className="w-48 h-52"/>
 			</div>          
           <p className="text-2xl text-cyan-400 mb-4 tracking-wide font-light">
             <span className="text-white font-bold text-3xl animate-pulse">D</span><span className="ml-1">atabase </span>
