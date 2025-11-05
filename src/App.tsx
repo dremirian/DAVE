@@ -51,7 +51,7 @@ function App() {
     },
     {
       icon: FileText,
-      title: 'Modelo de Health Check SQL Server',
+      title: 'Health Check SQL Server',
       description: 'Modelo em Word para documentar fases de implantação, escopo técnico, cronograma e riscos.',
       link: null,
       color: 'from-orange-500 to-orange-600',
